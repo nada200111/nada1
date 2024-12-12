@@ -10,7 +10,7 @@ class NadaApp extends StatelessWidget {
   const NadaApp({super.key});
 
   @override
-  Widget build(BuildContext context) { 
+  Widget build(BuildContext context) {
     return MaterialApp(
       home: LoginScreen(),
       debugShowCheckedModeBanner: false,
